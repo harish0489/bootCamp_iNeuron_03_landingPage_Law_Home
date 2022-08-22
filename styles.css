@@ -1,0 +1,146 @@
+/* Import Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+
+/* Cleanup CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Red Rose", sans-serif;
+}
+
+button {
+    all: unset;
+}
+
+
+/* Styles for Navbar */
+nav {
+    padding: 5vh 15vh;
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+}
+
+nav,
+.hero {
+    background-color: #2b2922;
+}
+
+nav .list-items {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.list-item {
+    list-style-type: none;
+    padding: 0vh 5vh;
+}
+
+.btn-register{
+    border: 1px solid #83817a;
+    color: #83817a;
+    padding :2vh 4vh;
+    border-radius: 10px;
+}
+
+.active{
+    color: #FFFFFF;
+}
+.muted{
+    color: #83817a;
+}
+
+.hero {
+    padding: 0vh 15vh;
+    display: flex;
+    flex-direction: row;
+    height: 35vh;
+}
+
+
+.hero .left,
+.hero .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+h1 {
+    font-size: 56px;
+    color: #f1f0ef;
+    padding: 0vh 10vh;
+}
+
+p {
+    font-size: 18px;
+    color: #a4a29f;
+    padding: 0vh 10vh;
+    line-height: 150%;
+    color: #73726c;
+    width: 33vw;
+}
+
+.banner {
+    width: 100vw;
+    height: auto;
+    display: block;
+}
+
+.footer {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #2b2922;
+}
+
+.square-left {
+    background-color: #39372d;
+    width: 8vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.square-left .circle,
+.square-right .circle {
+    margin: auto;
+}
+
+.square-right {
+    width: 8vw;
+    background-color: #9f8f36;
+    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.svgarrow {
+    height: 4vh;
+    width: 4vh;
+    margin: auto;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 100%;
+}
+
+.circle-left {
+    border: 1px solid #857833;
+}
+
+.circle-right {
+    border: 1px solid #FFFFFF;
+}
